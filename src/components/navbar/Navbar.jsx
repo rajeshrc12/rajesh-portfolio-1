@@ -11,7 +11,7 @@ const Navbar = () => {
             <ul className="social_link_container">
                 <li style={{backgroundColor:"#0A66C2"}} className='social_link_li'><a target="_blank" rel="noreferrer" className='social_link' href="https://www.linkedin.com/in/rajesh-charhajari-91a831105/">LinkedIn<AiFillLinkedin size={30}/></a></li>
                 <li style={{backgroundColor:"#333"}} className='social_link_li'><a target="_blank" rel="noreferrer" className='social_link' href="https://github.com/">GitHub<AiFillGithub size={30}/></a></li>
-                <li style={{backgroundColor:"green"}} className='social_link_li'><a target="_blank" rel="noreferrer" className='social_link' href={Resume}>Resume<AiOutlineFilePdf size={30} download="rajesh_charhajari_resume.pdf"/></a></li>
+                <li style={{backgroundColor:"green"}} className='social_link_li'><a target="_blank" rel="noreferrer" className='social_link' href={Resume} download="rajesh_charhajari_resume.pdf">Resume<AiOutlineFilePdf size={30}/></a></li>
             </ul>
             <div className="navbar_container">
                 <div className="logo">
