@@ -71,7 +71,9 @@
     .mobile_menu_btn{
         display: block;
     }
-    
+    .navbar_container{
+        padding: .5rem;
+    }
 }
 @media screen and (min-width:700px) {
     .mobile_menu{
