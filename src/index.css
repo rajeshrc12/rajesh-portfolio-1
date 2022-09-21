@@ -1,13 +1,83 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: "Raleway";
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+.title{
+    font-size: 5rem;
+    font-weight: 700;
+}
+.subtitle{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+button
+{
+    margin-left: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: .1rem solid white;
+    color: white;
+    background-color: transparent;
+    padding: .5rem;
+    font-size: 1rem;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    cursor: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.logo{
+    font-size: 3rem;
 }
+ul{
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+p{
+    margin: 0;
+}
+
+@media screen and (max-width:1022px) {
+    .title{
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    
+}
+@media screen and (max-width:651px) {
+    .title{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    
+}
+@media screen and (max-width:360px) {
+    .title{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    
+}
+
