@@ -14,7 +14,7 @@ const Works = () => {
             <h3>Graphical Password</h3>
             <div>
               <button><a target="_blank" rel="noreferrer" href="https://github.com/rajeshrc12/graphicalpassword">Code</a></button>
-              <button><a target="_blank" rel="noreferrer" href="https://graphicalpassworddemo.netlify.app/">Demo</a></button>
+              <button><a target="_blank" rel="noreferrer" href="https://rajeshrc12.github.io/graphicalpassword/">Demo</a></button>
             </div>
           </div>
         <img className='works_image' src={GP} alt="" />
@@ -23,8 +23,8 @@ const Works = () => {
           <div className="work_image_data">
             <h3>Portfolio Website</h3>
             <div>
-              <button><a target="_blank" rel="noreferrer" href="https://github.com/rajeshrc12/graphicalpassword">Code</a></button>
-              <button><a target="_blank" rel="noreferrer" href="https://graphicalpassworddemo.netlify.app/">Demo</a></button>
+              <button><a target="_blank" rel="noreferrer" href="https://github.com/rajeshrc12/rajesh-portfolio-2">Code</a></button>
+              <button><a target="_blank" rel="noreferrer" href="https://rajeshrc12.github.io/rajesh-portfolio-2/">Demo</a></button>
             </div>
           </div>
         <img className='works_image' src={P2} alt="" />
